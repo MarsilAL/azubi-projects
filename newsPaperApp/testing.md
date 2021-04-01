@@ -38,10 +38,10 @@ __Aufgabe 2:__
 
 __Aufgabe 3:__
  - Was bedeutet die Aussage von Dijkstra für das Schreiben von Tests und die Korrektheit deiner Software? 
- - Erkläre die verschiedenen Arten von Tests anhand der Testing Pyramid?
- - Welche Art von Tests hast du schon geschrieben?
+ - Erkläre die verschiedenen Arten von Tests anhand der 'Testing Pyramid'?
+ - Welche Art von Tests hast du schon geschrieben? Hast du dich an eine bestimmte Struktur gehalten?
  - Wie würdest du deine Newspaper App testen? 
- - Was würde dir als Testplan helfen?
+ - Schau dir nochmal die UserStories und Akzeptanzkriterien an. Kannst du etwas davon als 'Testplan' wiederverwenden?
  
 
 Challenge
