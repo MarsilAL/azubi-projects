@@ -7,7 +7,7 @@ Keywords: serverless, faas, api, javafx, desktop, gui, frequency analysis, concu
 How have lyrics of music changed over time? Which words are used most often in songs and what are their topics over time?
 Write a desktop application visualizing a tag cloud based on Spotify data.
 To build up data you will utilize a lambda for collecting your text corpus.
-Your desktop application will analyse that data and display a tag word per year.
+Your desktop application will analyse that data and display a tag cloud per year.
 
 ![image](https://user-images.githubusercontent.com/3327413/116889912-643a9a00-ac2d-11eb-9151-eeaf08650c5f.png)
 
