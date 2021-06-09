@@ -2,6 +2,8 @@
 
 Keywords: serverless, faas, api, javafx, desktop, gui, frequency analysis, concurrency
 
+This project is meant for an experienced azubi with coding skills already present. Goal is to get hands on experience with serverless and at least one cloud provider (we use AWS). In the duration of this project the software will evolve from a compute-on-machine to a compute-on-serverless resources. Necessary technical, historical and social aspects of the trend towards serverless are also part of this project and should give the azubi background information and a frame of relevance.
+
 ## Idea
 
 How have lyrics of music changed over time? Which words are used most often in songs and what are their topics over time?
@@ -12,13 +14,12 @@ Your desktop application will analyse that data and display a tag cloud per year
 ![image](https://user-images.githubusercontent.com/3327413/116889912-643a9a00-ac2d-11eb-9151-eeaf08650c5f.png)
 
 
-
 ## Prerequesites
 
   * get yourself a Spotify developer account for the Web API (https://developer.spotify.com/documentation/web-api/reference/)
   * get yourself an AWS account for the infrastructure
 
-## Round 1: Desktop application
+## Round 1: The desktop application
 
 The frontend of your application will be a JavaFX desktop application displaying a tag cloud.
 For starters let's have a text area to write lots of text into and two buttons. One button will start the analysis and
@@ -39,14 +40,15 @@ Bonus: feel free to add additional statistics about the text corpus (#words, pun
 
 ## Round 2: Technical and social background
 
+You now have a working desktop application. The computation of the word cloud and the data processing is done on your machine. What kind of CPU do you have? How many cores? To better understand the trend towards serverless and the need to put computing into the cloud we compiled a list of resources and questions for you to answer.
+
  * read https://www.cs.utexas.edu/~lin/cs380p/Free_Lunch.pdf and answer "Why do cpus do not get faster in terms of Ghz"?
  * explain amdahls law: https://en.wikipedia.org/wiki/Amdahl%27s_law
 
+### tasks related to technical aspects
 
-### tasks
-* how can a software still become faster?
-* what are sources of delay in computing a solution?
-* explain cpu bound and memory bound? 
+* how can a software still become faster? Explain how the project SETI worked (https://www.spiegel.de/netzwelt/web/seti-home-keine-ausserirdischen-entdeckt-jetzt-ist-das-coronavirus-dran-a-02fee57f-7d9d-429b-bda2-a5336fcdb25e)
+* what are sources of delay in computing a solution? Explain cpu and memory bound? 
 
 ```
 your job is to find an element in list which is NOT sorted. if a comparison takes 1 unit of time and you have 1000 elements to go through, 
@@ -57,7 +59,7 @@ your job is to find an element in list which is NOT sorted. if a comparison take
 
 now that you understand, that scaling requires a different modeling of computing and maybe a different algorithmic approach let's look at the social aspect of software development as a team:
 
-### tasks
+### tasks related to social aspects
 
  * read https://zenodo.org/record/1236158/files/article.pdf
  * explain conway's law: https://en.wikipedia.org/wiki/Conway%27s_law
@@ -68,7 +70,7 @@ now that you understand, that scaling requires a different modeling of computing
  * Where does the "2 pizza team size" come from? Why does it make sense in your opinion?
  * for some background information regarding microservices view: https://www.youtube.com/watch?v=CZ3wIuvmHeM
 
-## Round 3: into serverless 
+## Round 3: into the wonderful world of serverless 
 
 view: https://www.youtube.com/watch?v=rFW6ArVOCro
 
