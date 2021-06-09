@@ -37,3 +37,38 @@ Bonus: feel free to add additional statistics about the text corpus (#words, pun
   * Have a look at the tag cloud. How might significance of words be improved even further?
 
 
+## Round 2: Technical and social background
+
+ * read https://www.cs.utexas.edu/~lin/cs380p/Free_Lunch.pdf and answer "Why do cpus do not get faster in terms of Ghz"?
+ * explain amdahls law: https://en.wikipedia.org/wiki/Amdahl%27s_law
+
+
+### tasks
+* how can a software still become faster?
+* what are sources of delay in computing a solution?
+* explain cpu bound and memory bound? 
+
+```
+your job is to find an element in list which is NOT sorted. if a comparison takes 1 unit of time and you have 1000 elements to go through, 
+- how long does it take for one person?
+- if you devide your work between 2 people?
+- if you devide your work between 4 people?
+```
+
+now that you understand, that scaling requires a different modeling of computing and maybe a different algorithmic approach let's look at the social aspect of software development as a team:
+
+### tasks
+
+ * read https://zenodo.org/record/1236158/files/article.pdf
+ * explain conway's law: https://en.wikipedia.org/wiki/Conway%27s_law
+
+ * what is a good team size? 
+```Teams have to communicate and coordinate internally. Let's say communication cost is 1 hour per day between 2 people. Draw a diagram and count the cost for a team of 2, 4, and 6 members.```
+
+ * Where does the "2 pizza team size" come from? Why does it make sense in your opinion?
+ * for some background information regarding microservices view: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+
+## Round 3: into serverless 
+
+view: https://www.youtube.com/watch?v=rFW6ArVOCro
+
