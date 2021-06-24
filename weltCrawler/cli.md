@@ -15,3 +15,11 @@ You do interact with these tools by using their specific interface!
 3. Noticed any commonalities? Maybe there are some conventions regarding a CLI and how it's used?
     - Which commonalities do you see?
     - Copy the azubi-projects folder. Remove the copy afterwards. You will probably use `cp` and `rm` for that. What's the difference when using the `-v` parameter and when not? What does it do?
+
+
+Imagine you are tasked with building a terminal program (cli) that fetches articles from welt.de and displays them in the terminal. Here is the link to the rss feed list: https://www.welt.de/services/article157826206/Abonnieren-Sie-die-RSS-Feeds-der-WELT.html
+
+- you should allow your users to specify a section
+- you should allow your users to specify how many articles to fetch
+
+What parameters / arguments would you allow your users to pass along? Give some examples how to call this (for now imaginary) cli of yours!

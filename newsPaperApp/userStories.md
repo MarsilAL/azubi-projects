@@ -37,3 +37,10 @@ Ein typischen Scrum-Team hat eine Anzahl von Entwicklern, ein Product-Owner und 
 
 Nenne mindestens 3 Akzeptanzkriterien für das in Aufgabe 2 beschriebene Katzen-Tür-Problem!
 
+
+Aufgabe 4
+---------
+
+Schreibe für die NewsPaperApp die Userstories in einer der obigen Formen. Jedes Userstory ein Github-Issue.  Die Akzeptanzkriterien bitte als github checkbox auflisten. Deine Ausbilder werden diese Kriterien verwenden um die Userstory als „done“ zu sehen. Du kannst in github auch ein Projekt anlegen und dein newspaperapp repo dem Projekt hinzufügen. Die Spalten Todo, WIP und DONE sollten reichen.
+ 
+Aufgaben 1 – 3 bitte als userstories.md ins repo commiten.
