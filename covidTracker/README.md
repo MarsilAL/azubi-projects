@@ -71,3 +71,7 @@ BattlePlan
 - Wie kannst du die Kosten deiner Software gering halten?
 - du findest das Buch nicht? https://epdf.pub/implementation-patterns.html
 
+Implementation
+---------------
+
+Wir haben da was kleines vorbereitet: (covid.md)[covid.md]. Löse die Aufgaben und hack away.  
