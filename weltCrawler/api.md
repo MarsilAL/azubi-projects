@@ -1,20 +1,8 @@
-Repo cleanup
-============
-
-A clean kitchen is a happy kitchen. Please revise your git ignore file
-to only add and commit files that a necessary for building your project
-
-Remove the entrypoint.sh script because you don't need it anymore. Don't 
-forget to adapt your dockerfile. 
-
-
 CI / CD 
 =======
 
 What is CI/CD. Prepare a short presentation (10 min). How does this relate
-to the 12 factor app manifesto?
-
-Please add a travis job to test your java application and building of the docker container
+to the 12 factor app manifesto? Where does Docker fit in?
 
 
 Http Endpoints
@@ -31,7 +19,12 @@ Please us the project as a reference to implement your own endpoint in your craw
 returns the string "UP" when browsing the url ".../health". This is a typical endpoint that most apis are providing.
 here is an example: http://rss-import-production.ipool.asideas.de/admin/health
 
-You have to change the dyno type from WORKER to WEB because now your app is serving http requests
+deployment & ci/cd
+--------------------
+
+- Create a docker-container that serves your app and manual deploy it to heroku
+- create a github workflow that builds the docker container and saves it to the github registry
+- extend the github workflow to deploy your docker-container to heroku.
 
 ping pong endpoint
 ------------------
