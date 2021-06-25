@@ -60,4 +60,14 @@ Extract your random number logic to a service class called "RandomNumberService"
 
 - Write unit tests asserting that two consequent calls do not produce the same result
 - Write a unit test that asserts that the number of letters is correct
-- 
+
+Task 5
+-------
+
+Refactor your main function to use a dedicated WeltCrawlerApp instance. 
+```java
+WeltCrawlerApp myApp = new WeltCrawlerApp();
+String output = myApp.run(args);
+System.out.println(output);
+```
+Now write a test for your WeltCrawlerApp. So amazing.
