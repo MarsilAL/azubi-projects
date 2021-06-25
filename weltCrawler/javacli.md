@@ -17,6 +17,7 @@ For example:
   $ 234234
   $ java -jar /path/to/your/jar 
   $ 123
+  ```
   
 Task 2
 ------
@@ -38,14 +39,25 @@ Extend your app to read arguments specifying how many letters the random number 
   $ java -jar /path/to/your/jar 11
   $ please specify the amount of letter (min: 0, max: 10)
   ```
+- Draw an activity diagram that shows how your application is working. From start to end. You can use plantuml for that or excalidraw. Don't know what an activity diagram is? checkout https://www.youtube.com/watch?v=XFTAIj2N2Lc
+
+
 
 Task 3
+-------
+
+Time to talk about the software building process and how to run your app.
+
+- You are using gradle to build your software. Explain what happens when gradle "build" is executed?  
+- Do you know what a jar is? Tell us! What files are inside? What is so cool about the concept of a jar?
+- Build your software as a jar and demonstrate the functionality as outlined in Task 2.
+
+
+Task 4
 ------
 
-Extract your random number logic to a service class called "RandomNumberService" with a function "int random(int nLetters)" that takes the number of letters as an arugment.
+Extract your random number logic to a service class called "RandomNumberService" with a function "int random(int nLetters)" that takes the number of letters as an argument.
 
 - Write unit tests asserting that two consequent calls do not produce the same result
 - Write a unit test that asserts that the number of letters is correct
-
-Your service should be instantiated in your main function.
-
+- 
