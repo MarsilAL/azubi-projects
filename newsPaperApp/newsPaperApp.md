@@ -1,18 +1,20 @@
-newsPaperApp (SPA, webapp)
-=========================
+# NewsPaperApp
+================
 
-Der Kunde benötigt eine (web)App, die ihr aktuelle Nachrichten zu einem Begriff anzeigt. Diese App sollte aus dem Internet erreichbar sein, jedoch nur mit einem Password verwendet werden können. Der Kunde verwendet einen Browser und ab und zu sein Handy.
+Tags: Authentication, SPA, Docker, API, Node.js, TestingPyramide, Agile, AdaptiveWebDesign
 
-Folgende API kannst du verwenden: https://sandbox-api.ipool.asideas.de
+Der Kunde benötigt eine (Web)App, die ihr aktuelle Nachrichten zu einem Begriff anzeigt. Diese App sollte aus dem Internet erreichbar sein, jedoch nur mit einem Password verwendet werden können. Der Kunde verwendet einen Browser und ab und zu sein Handy.
 
-Um die letzten 5 Artikel zu finden, die das Wort 'Putin' beinhalten machst du folgende Anfrage: https://sandbox-api.ipool.asideas.de/sandbox/api/search?q=Putin&limit=5
+Folgende API kannst du verwenden: https://sandbox-api.ipool.asideas.de. Du benötigst von uns vorher Zugangsdaten (bitte anfragen).
+Um die letzten 5 Artikel zu finden, die das Wort 'Putin' beinhalten machst du folgende Anfrage:
 
-Zeitrahmen
-------------
-Du hast eine Woche Zeit für die Umsetzung. 
+https://sandbox-api.ipool.asideas.de/sandbox/api/search?q=Putin&limit=5
+https://sandbox-api.ipool.asideas.de/swagger-ui.html#!/ipool-v-3/searchUsingGET
 
-Zur Vorbereitung
+
+## Zur Vorbereitung
 ----------------
+
 - Beschreibe anfangs die Nutzerinteraktion (UML interaction diagram)
 - Male einen low fidelity UI Sketch für Browser und Handy 
 - Überlege danach wie die Software Komponenten / Architektur aussehen könnte, bzw. wie du das Problem in Teilbereiche zerlegen kannst (pseudo UML)
@@ -20,11 +22,19 @@ Zur Vorbereitung
 - Bevor du eine Story anfängst definiere subtasks als 'github checkboxes' und bespreche diese mit uns
 
 
-Anmerkungen
------------
+## Technische Aufgaben
+--------------------------
 
-Es sollte ein automatische Deployment (commit -> testing -> deployment) eingerichtet sein. Du committest deine Änderungen, es werden Tests ausgeführt und bei Erfolg ein Deployment durchgeführt. Für das Deployment kannst du deine webseite 
+Es sollte ein automatische Deployment (commit -> testing -> deployment) eingerichtet sein.
+Du committest deine Änderungen, es werden Tests ausgeführt und bei Erfolg ein Deployment durchgeführt.
 
-- Schreibe Unit-tests für kleine Funktionalitäten der Komponenten. (jest is your friend)
-- Schreibe Acceptance tests um die Nutzerinteraktion deiner Anwendung zu testen. (cypress is your friend)
-- Bitte verwende für das Projekt die Programmiersprache Javascript, html und (s)css. (react? vue? vanillajs? your pick)
+Bitte verwende für das Projekt die Programmiersprache Javascript und als Plattform Heroku.
+Die Anwendung soll als Node.js Projekt in einem Docker Container laufen, ein Webserver liefert deine statischen Assets aus (HTML, CSS, JS).
+
+Schreibe Unit Tests für kleine Funktionalitäten der Komponenten.
+Siehe dazu auch https://github.com/as-ideas/azubi-javascript
+Alternatives Testing Framework: https://jestjs.io/
+
+Schreibe Acceptance Tests um die Nutzerinteraktion deiner Anwendung zu testen.
+https://www.cypress.io/how-it-works
+
