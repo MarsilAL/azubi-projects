@@ -17,12 +17,6 @@ Java CLI App (javacli.md)
 
 Build a java cli app using gradle as a build system.
 
-XML Parsing / Deserialization (deserialization.md)
---------------------------------------------
-
-You stumbled accross XML and don't know how to handle that crap?
-Go have a look into the Deserialization part of this project. Play the game and become first place!
-
 
 Software building blocks (buildingblocks.md)
 --------------------------------------------
@@ -30,7 +24,15 @@ Software building blocks (buildingblocks.md)
 Do you know the onion architecture? Start thinking about responsibilities in your app. 
 
 
+XML Parsing / Deserialization (deserialization.md)
+--------------------------------------------
+
+You stumbled accross XML and don't know how to handle that crap?
+Go have a look into the Deserialization part of this project. Play the game and become first place!
+
+
 api (api.md)
 ------------
 
 You cli is working. Time to make your app work in the web!
+
