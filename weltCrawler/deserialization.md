@@ -1,7 +1,7 @@
 ## Serialization / Deserialization
 _(It is sometimes also referred to as marshalling / unmarshalling ..)_
 
-Ever wondered how applications keep data persistently? Well .. they save data to files.
+Ever wondered how applications keep data persistent? Well .. they save data to files.
 And they resume things by loading data from some place. This is for example how savegames in computer games work!
 
 1. Execute Savegame.java. How does it save your game? Try to comprehend the code, add new attributes to the savegame.
